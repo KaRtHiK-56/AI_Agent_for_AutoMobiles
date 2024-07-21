@@ -53,10 +53,10 @@ adviser_task = Task(
 recommender_task = Task(
     description=(
         "1. Based on the {question}, recommend appropriate indian automobile vehicle step by step.\n"
-        "2. Consider the users's query/question ({question}) and undestand the cureent condition of the user.\n"
+        "2. Consider the users's query/question ({question}) and undestand the current condition of the user.\n"
         "3. Provide detailed recommendations, including model summary,mileage,price,why should i choose this bike?."
     ),
-    expected_output="A comprehensive automobile plan tailored to the users's {question} stating its model summary,mileage,price and why should i choose this bike?.",
+    expected_output="A comprehensive automobile plan tailored to the users's {question} stasting its model summary,mileage,price and why should i choose this bike?.",
     agent=recommender,
 )
 
